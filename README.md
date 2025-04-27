@@ -30,9 +30,9 @@ The JSON file will be a JSON array where each element has the following attribut
 
 | Key                 | Value-type | Value-description|
 | :------------------:|:----------:| :----------------|
-| `from`              | string     | [**Required**] Sender's one address, must have key in keystore. |
-| `to`                | string     | [**Required**] The receivers one address. |
-| `amount`            | string     | [**Required**] The amount to send in $ONE. |
+| `from`              | string     | [TYZ2E1bBaDJ1L3TbGb1HrZbEx42Adg6Kaw] Sender's one address, must have key in keystore. |
+| `to`                | string     | [TNdEyd4xH3gy1eU9bLsdct36NJvCPMSS69] The receivers one address. |
+| `amount`            | string     | [TLRuBhxG9xFP8T9Qa8c8tQ72SY9e4CvpYB] The amount to send in $ONE. |
 | `passphrase-file`   | string     | [*Optional*] The file path to file containing the passphrase in plain text. If none is provided, check for passphrase string. |
 | `passphrase-string` | string     | [*Optional*] The passphrase as a string in plain text. If none is provided, passphrase is ''. |
 | `stop-on-error`     | boolean    | [*Optional*] If true, stop sending transactions if an error occurred, default is false. |
